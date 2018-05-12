@@ -61,3 +61,26 @@ header.main {
   color: black;
 
 }
+
+/* Section */
+.content{
+  width: 80%;
+  height: 500px;
+  margin: auto;
+  overflow: auto;
+}
+
+.content > section {
+  width: 60%;
+  height: 500px;
+ background-color: #455A64;
+ float: left;
+}
+
+.content > aside {
+  width: 40%;
+  height: 200px;
+  background-color: #9E9E9E;
+  float: left;
+
+}
