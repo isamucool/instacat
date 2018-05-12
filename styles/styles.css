@@ -1,10 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@font-face {
+  font-family: 'Univers';
+  src: local('Univers');
+  src: url('../fonts/Univers.eot');
+  src: url('../fonts/Univers.woff'), url('../fonts/Univers.woff2'), url('../fonts/Univers.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto';
+  font-family: 'Univers';
 }
 
 
