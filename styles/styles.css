@@ -125,6 +125,7 @@ header.main {
 }
 
 .content > section > article {
+  margin: 20px;
   /* padding: 20px; */
   /* background-color: purple; */
   border: 1px solid #ddd;
@@ -155,4 +156,18 @@ header.main {
   border-radius: 5px;
   font-size: 1.2em;
 
+}
+@keyframes movebox {
+  0% {transform: translateX(0px);}
+  50% {transform: translateX(200px);}
+  100% {transform: translateX(0px);}
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  background-image: url(../img/Tuna1.jpg);
+  background-size: cover;
+  background-position: 50% 50%;
+  animation: movebox 2s linear infinite;
 }
