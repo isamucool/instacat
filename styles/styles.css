@@ -73,14 +73,47 @@ header.main {
 .content > section {
   width: 60%;
   height: 500px;
- background-color: #455A64;
+ /* background-color: #455A64; */
  float: left;
+ padding: 20px;
 }
 
 .content > aside {
   width: 40%;
   height: 200px;
-  background-color: #9E9E9E;
+  /* background-color: #9E9E9E; */
   float: left;
+  padding: 40px;
+  overflow: auto;
+}
 
+/* ASIDE */
+.content > aside > .img {
+  width: 80px;
+  height: 80px;
+  background-color: #212121;
+  background-image: url('../img/images.jpeg');
+  background-size: cover;
+  /* background-position: 50% 50%; */
+  border-radius: 50%;
+  float: left;
+}
+
+.content > aside > h2 {
+  float: left;
+  line-height: 80px;
+  padding-left: 20px;
+}
+
+.content > aside > p {
+  clear: both;
+  padding: 10px;
+  color: #607D8B;
+}
+
+.content > section > article {
+  height: 400px;
+  /* background-color: purple; */
+  border: 1px solid #ddd;
+  border-radius: 10px;
 }
